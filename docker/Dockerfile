@@ -5,4 +5,4 @@
 
 FROM java:8-jre
 COPY target/gs-rest-service-docker-1.0.0-SNAPSHOT.jar /gs-rest-service-docker.jar
-CMD java -jar gs-rest-service-docker.jar
+CMD ["java", "-jar", "gs-rest-service-docker.jar"]
