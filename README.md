@@ -5,3 +5,4 @@ Builds on the Spring Boot gs-rest-service demo application with the following ad
   - Dockerfile
   - Build version information in resources available in runtime
   - Build version information in MANIFEST
+  - Converted from jar to to war
