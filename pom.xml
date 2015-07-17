@@ -41,8 +41,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <!--<outputDirectory>target/docker</outputDirectory>-->
-                            <outputDirectory>${project.basedir}</outputDirectory>
+                            <outputDirectory>target/docker</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>target</directory>
