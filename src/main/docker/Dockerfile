@@ -4,5 +4,5 @@
 #COPY gs-rest-service-docker-${project.version}.war /usr/local/tomcat/webapps/gs-rest-service-docker.war
 
 FROM java:8-jre
-COPY gs-rest-service-docker-${project.version}.jar /gs-rest-service-docker.jar
+COPY ["gs-rest-service-docker-${project.version}.jar", "/gs-rest-service-docker.jar"]
 CMD ["java", "-jar", "gs-rest-service-docker.jar"]
