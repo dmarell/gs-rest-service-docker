@@ -9,7 +9,7 @@ import java.util.Properties;
 
 /**
  * Provides build version.
- * <br>
+ *
  * version=${project.version}
  */
 public final class BuildInfo {
